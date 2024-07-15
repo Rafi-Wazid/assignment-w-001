@@ -182,6 +182,97 @@ nav {
 
 
 
+/* my-inspiration sections style */
+
+
+.my-inspiration {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    max-width: 1140px;
+    margin: 90px auto;
+}
+
+.my-inspiration-heading {
+    text-align: center;
+    padding: 0 144px 48px 144px;
+    
+}
+
+.inspiration-tittle {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+
+iframe {
+    height: 550px;
+    width: 900px;
+    border-radius: 16px;
+    margin: 32px;
+}
+
+
+/* my current target section */
+
+
+.current-target {
+    max-width: 1140px;   
+    margin: 90px auto;
+}
+
+.target-heading {
+    text-align: center;
+    padding: 0 97px 48px 97px;
+}
+
+
+.current-target-tittle {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 40px;
+    align-items: start;
+    border-radius: 16px 
+}
+
+.skill img {
+    height: 56px;
+    width: 56px;
+}
+
+.skill a {
+    color: black;
+    font-weight: bold;
+}
+
+.skill-tittle {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.skill-html {
+    background-color: #fff6f4;
+}
+
+.skill-css {
+    background-color: #f2f6fe;
+}
+
+.skill-js {
+    background-color: #fffdf2;
+}
+
+/* Support sections styles */
 
 
 
