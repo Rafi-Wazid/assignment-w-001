@@ -8,22 +8,21 @@
 
 /* shared styles */
 
-.btn-primary {
-    background-color: white;
-    font-weight: 600;
-    font-size: 20px;
-    padding: 17px 24px;
-    border-radius: 8px;
-    border: 1px solid;
-}
-
 
 .dark-1{
     color: #0D1321;
 }
 
 .dark-2 {
-    color: ;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+
+.description-text {
+    font-size: 16px;
+    color: #0D1321;
+    
 }
 
 
@@ -52,6 +51,16 @@ nav {
 }
 
 
+.btn-download {
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+
 /* banner styles  */
 
 
@@ -66,12 +75,113 @@ nav {
     font-size: 48px;
 }
 
+
 .banner-description {
-    font-size: 16px;
     padding: 24px 73px 32px 73px;
 }
+
 
 .banner-profile-image {
     width: 240px;
 }
+
+
+.btn-contact-me {
+    color: white;
+    background-color: #0D1321;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 24px;
+    border-radius: 8px;
+    border: 1px solid;
+    font-family: "Azeret Mono";
+}
+
+/* web development section styles */
+
+.web-dev-section {
+    background-color: #fafafb;
+    max-width: 1140px;
+    margin: 90px auto;
+}
+
+.web-dev-tittle-section {
+    text-align: center;
+}
+
+.web-dev-tittle {
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.web-dev-description {
+    font-size: 16px;
+    opacity: 70%;
+    margin: 0 auto 40px;
+    padding: 24px 47px 48px 47px;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.goal {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+
+.goal.reverse {
+    flex-direction: row-reverse;
+}
+
+.goals-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.goals-content h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.goals-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.goals-image {
+    max-width: 40%;
+    text-align: right;
+}
+
+.goals-image img {
+    max-width: 100%;
+}
+
+
+.btn-learn-more {
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 0px;
+    border: 1px solid;
+}
+
+
+
+
+
+
 
